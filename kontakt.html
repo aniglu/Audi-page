@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head class="header">
+        <title>Audi</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="shortcut icon" href="pic/mlogo.png">
+        <!-- jQuery 1.8 or later, 33 KB -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Fotorama from CDNJS, 19 KB -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    </head>
+
+<body>
+    <div class="top-menu">        
+        <img src="pic/logo2.png" id="logo">
+        <img src="pic/burger-menu-w.png" id="burgerW" onClick="show1()">
+    </div>
+    <nav class="left-menu" id="navilist">
+        
+                <div class="page-menu" >
+                        <li><a href="index.html#logo">Strona Główna</a></li>
+                        <li><a href="index.html#oferta">Oferta</a></li>
+                        <li><a href="index.html#galeria">Galeria</a></li>                                    
+                        <li><a href="index.html#teksty">Teksty</a></li>
+                        <li><a href="index.html#mapa">Mapa</a></li>
+                        <li><a href="index.html#filmy">Filmy</a></li>
+                        <li><a href="index.htmlkontakt.html">Kontakt</a></li>
+                        <li><img src="pic/logo.png" width="79px" height="50px"></li>  
+                </div>
+                <script src="show.js"></script>                                               
+      </nav>
+            
+      <div id="panel"> 
+        <div id="title">
+            Masz pytania?
+        </div>         
+        <div id="content">
+            <span id="titleForm">Formularz kontaktowy</span>
+            <div id="formCon">
+                <form method="post" action="" id="contact_form">
+                    <label for="name"  >Imię i nazwisko</label><br>
+                    <input id="form-field" type="text" name="name" id="name" class="formField" /><br>
+                    <label for="phone">Numer telefonu</label><br>
+                    <input id="form-field" type="text" name="phone" id="phone" class="formField" /><br>
+                    <label for="email">Adres email</label><br>
+                    <input id="form-field" type="text" name="email" id="email" class="formField" /><br>
+                    <label for="message">Treść wiadomości</label><br>
+                    <textarea id="form-field" name="message" id="message" class="formField"></textarea><br>
+                    <button id="sendBtn">Wyślij</button></div>
+                
+                </form>
+             </div>
+        </div>
+     
+    </div>
+                    
+        <div class="app-container">
+        <div id="main-container">
+            <header>
+                <div id="headpic-kon" class="fotorama">
+                    <img src="slider-kont/1.png">
+                    <img src="slider-kont/2.png">
+                    <img src="slider-kont/3.png">
+                    <img src="slider-kont/4.png">
+                    <img src="slider-kont/5.png">
+                  </div>
+            </header>
+            <article>
+                <hr>                      
+
+            <div id="kontakt">               
+                <a name="Kontakt" class="heading"></a>
+                <div id="text"><p style="text-align: center; margin:5px;">
+                Anita Głuszek <br>
+                Studia Inżynierskie<br>
+                Informatyka<br>
+                 3 semestr<br>
+                99634</p></div>                       
+            </div>           
+
+            
+        </div>
+    </div>
+</div>
+</article>
+<footer>
+<div id="copyright" class="copyright">Copyright by Anita Głuszek 2020 &copy</div> 
+</footer>
+</body>
+
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audi</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="shortcut icon" href="pic/mlogo.png">
+    </head>
+
+<body>
+    <div class="top-menu">        
+        <img src="pic/logo2.png" id="logo">
+        <img src="pic/burger-menu-w.png" id="burgerW" onClick="show1()">
+    </div>
+    <nav class="left-menu" id="navilist">
+        
+                <div class="page-menu" >
+                        <li class="current"><a href="#logo">Strona Główna</a></li>
+                        <li><a href="#oferta">Oferta</a></li>
+                        <li><a href="#galeria">Galeria</a></li>                                    
+                        <li><a href="#teksty">Teksty</a></li>
+                        <li><a href="#mapa">Mapa</a></li>
+                        <li><a href="#filmy">Filmy</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><img src="pic/logo.png" width="79px" height="50px"></li>  
+                </div>
+                <script src="show.js"></script>                                               
+      </nav>
+            
+      <div id="panel"> 
+        <div id="title">
+            Masz pytania?
+        </div>         
+        <div id="content">
+            <span id="titleForm">Formularz kontaktowy</span>
+            <div id="formCon">
+                <form method="post" action="" id="contact_form">
+                    <label for="name"  >Imię i nazwisko</label><br>
+                    <input id="form-field" type="text" name="name" id="name" class="formField" /><br>
+                    <label for="phone">Numer telefonu</label><br>
+                    <input id="form-field" type="text" name="phone" id="phone" class="formField" /><br>
+                    <label for="email">Adres email</label><br>
+                    <input id="form-field" type="text" name="email" id="email" class="formField" /><br>
+                    <label for="message">Treść wiadomości</label><br>
+                    <textarea id="form-field" name="message" id="message" class="formField"></textarea><br>
+                    <button id="sendBtn">Wyślij</button></div>
+                </form>
+             </div>
+        </div>
+     
+    </div>
+                    
+        <div class="app-container">
+        <div id="main-container">
+            <header>
+                <img id="headpic" src="pic/n1.png">
+            </header>
+            <article>                 
+                <hr>               
+               <div id="oferta">
+                <div id="rs7">
+                    <img src="pic/1.png" id="audi" width="290px">
+                    <p class="name">Audi RS7</p>                    
+                    <p id="contentoferty" style="text-align: justify">Sportowa sylwetka, napięte powierzchnie i wyraziste linie sprawiają, że nowe Audi RS 7 Sportback z
+                         każdej perspektywy prezentuje się ekscytująco. Niska linia ramion przenosi uwagę ku dołowi, w którym dominują masywne wloty powietrza, szeroka osłona chłodnicy Singleframe i 
+                         dynamiczne reflektory,podczas gdy linie bocznych szyb akcentują sportowy charakter samochodu. </p>
+                </div>
+                <div id="r8">
+                    <img src="pic/2.png" id="audi" width="290px">
+                    <p class="name">Audi R8</p>
+                    <p id="contentoferty" id="overt" style="text-align: justify">Niezależnie od tego, z jakiej perspektywy spojrzy się na Audi R8, jednego można być pewnym: to najwyższej klasy samochód sportowy łączący w 
+                        sobie estetykę z jeszcze większą niż dotychczas mocą. Audi R8 udowadnia, że potężna moc i elegancja mogą stworzyć doskonały mariaż. Po kompleksowym odświeżeniu Audi R8 przekonuje 
+                        do siebie oszałamiającymi osiągami oraz dopracowanym designem, a jeszcze bardziej drapieżny wygląd łączy je ze sportami motorowymi mocniej niż jakiekolwiek inne Audi.
+
+                    </p>
+                    </div>
+                <div id="rs5">
+                    <img src="pic/3.png" id="audi" width="290px">
+                    <p class="name">Audi RS5</p>
+                    <p id="contentoferty"style="text-align: justify">Niezależnie od tego, czy stawiasz na sportowego ducha, komfort, ekspresyjny styl, czy najwyższą funkcjonalność, Audi ma bogatą ofertę rozwiązań 
+                        umożliwiających dopasowanie samochodu do Twoich oczekiwań, a wszystkie elementy wyposażenia zawsze przekonują najwyższą jakością. W nowym wydaniu RS 5 Sportback atrakcyjne 
+                        elementy stylistyczne, zaawansowane zintegrowane systemy wsparcia kierowcy i dopracowane rozwiązania z zakresu komfortu tworzą nowy wzorzec perfekcji. </p>
+                </div>           
+            </div>        
+            <hr>
+            <div id="galeria">
+                <img src="gal/1.png" width="890px" id="imgClickAndChange" onclick="changeImage(this)">
+               <div id="kliknij">Kliknij na zdjęcie!</div>                
+            </div>
+            <hr>
+            <div id="teksty">
+                <div id="text">
+                    <p style="text-align: justify; margin:5px;">                        
+                    Świat motoryzacji zmienia się nieustannie. Postęp nabiera coraz większego rozmachu i tempa, dając coraz więcej możliwości. 
+                    Audi współkształtuje ten rozwój, wyznaczając kierunki również w zakresie doświadczeń związanych z zakupem samochodu. 
+                    <img src="pic/inf1.png" ALIGN="left" style="margin:5px;" >                        
+                   Audi City to innowacyjny salon sprzedaży wykorzystujący najnowocześniejsze cyfrowe systemy prezentacyjne, pozwalające na poznanie wszystkich modeli Audi w wirtualnej formie, w każdej możliwej
+                    <img src="pic/inf2.png" ALIGN="RIGHT" style="margin:5px;">
+                    konfiguracji. W wyposażonych w cyfrowe rozwiązania pomieszczeniach - Customer Private Lounges – klienci mogą w kameralnych, komfortowych warunkach zaznajomić się z niezliczonymi opcjami wyposażenia, kolorami nadwozia i 
+                    elementami dekoracyjnymi wnętrza, w pełni indywidualizując swoje Audi. Audi City łączy zalety cyfrowego i rzeczywistego świata, oferując również możliwość odbycia indywidualnej jazdy testowej, 
+                    zamówienia samochodu oraz jego odbioru. Jednym z najważniejszych atutów Audi City jest profesjonalna obsługa, którą zapewniają Eksperci Audi. 
+                    Dedykowani doradcy służą pełnym wsparciem w każdej kwestii związanej z wyborem i zakupem nowego samochodu, także w doborze usług finansowych oraz usług mobilnych.
+                    </p></div>                       
+            </div>
+            <hr>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d626785.1008947912!2d20.052587261718767!3d52.145611445467054!3m2!1i1024!2i768!4f13.1!2m1!1ssalony%20audi!5e0!3m2!1spl!2spl!4v1605778879746!5m2!1spl!2spl" 
+                width="900" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
+
+            </div>
+            <hr>
+            <div id="filmy">                    
+                       <iframe width="900" height="450" src="https://www.youtube.com/embed/pXl6fyPWCOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                     
+                    </div>
+                </div>
+                <a href="#headpic"><img class="arrow" src="./pic/arrow.png"></a>
+        </div>
+</article>
+    <footer>
+       <div id="copyright">Copyright by Anita Głuszek 2020 &copy</div> 
+    </footer>
+</body>
+
+    
+</html>
